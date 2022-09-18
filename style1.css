@@ -1,3 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    padding:16px;
+
+}
+header nav>a{
+    margin:16px;
+    text-decoration: none;
+    color:black;
+}
+header nav>a:hover{
+    text-decoration: underline;
+    background-color:pink;
+    padding:8px;
+}
+header nav>a:visited{
+    color:rgb(123, 54, 65);
+}
+
 table,th,td{
     border: 1px solid rgb(7, 0, 0);
     text-align: center;
@@ -8,7 +32,11 @@ table,th,td{
     padding:16px;
     
 }
+.container> section>h1{
+    text-align: center;
+    color:palevioletred
 
+}
 
 .intro{
     
@@ -22,6 +50,7 @@ table,th,td{
 body{
     margin:0px;
     font-family: 'Times New Roman', Times, serif;
+    color:black
 }
 *{
     font-size: 18px;
@@ -32,4 +61,9 @@ body{
 }
 .intro img{
 border-radius: 30px;
+}
+footer{
+    padding:16px;
+    text-align: center;
+    border-top: solid;
 }
