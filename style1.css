@@ -1,0 +1,35 @@
+table,th,td{
+    border: 1px solid rgb(7, 0, 0);
+    text-align: center;
+    padding:6px
+
+}
+.container{
+    padding:16px;
+    
+}
+
+
+.intro{
+    
+    padding:16px;
+    background-color: black;
+    color:rgb(251, 245, 246);
+    text-align: center;
+}
+
+
+body{
+    margin:0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+*{
+    font-size: 18px;
+    margin:10px;
+}
+.dynamic-text-color{
+    color:pink
+}
+.intro img{
+border-radius: 30px;
+}
