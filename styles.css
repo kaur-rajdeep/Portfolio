@@ -1,0 +1,274 @@
+body{
+  background-color: #041f27;
+  color:whitesmoke;
+}
+
+header{
+  position: sticky;
+  top:0px;
+  background: #041f27;
+  z-index: 1;
+}
+
+#navbar ul li{
+  display: inline-block;
+  list-style: none;
+  margin:10px 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+#navbar a{
+  text-decoration: none;
+  font-weight: bold;
+  color:whitesmoke;
+}
+
+#navbar a:hover{
+  color:#fff;
+  font-size:5 rem;
+  font-weight:600;
+  text-shadow:0 0 20px #03bcf4,
+      0 0 20px #03bcf4,
+      0 0 40px #03bcf4,
+      0 0 80px #03bcf4,
+      0 0 160px #03bcf4;
+}
+
+
+#container{
+  height:100vh;
+  margin-top: 13%;
+  margin-left: 15%;
+}
+
+#container p{
+  line-height: 22px;
+  font-size: large;
+
+}
+
+#container h2{
+  font-size: xx-large;
+  text-align:left;
+}
+
+#container h1{
+  position: relative;
+  font-family: sans-serif;
+  font-size:6em;
+  letter-spacing: 10px;
+  color:#0e3742;
+  text-transform: uppercase;
+  width:100%;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+  line-height: 0.70em;
+  outline:none;
+  animation: animate 10s infinite;
+  margin: bottom 20px;
+}
+
+@keyframes animate
+{
+  0%
+  {
+      color:#0e3742;
+      text-shadow: none;
+  }
+  100%{
+      color:#d5f1fb;
+      text-shadow:0 0 10px #03bcf4,
+      0 0 20px #03bcf4,
+      0 0 40px #03bcf4,
+      0 0 80px #03bcf4,
+      0 0 160px #03bcf4;
+  }
+}
+
+/* Styles for Education */
+
+.education {
+
+  position: relative;
+  font-size:6em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  width:100%;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+  line-height: 0.70em;
+  color:#c2dee9fa;
+  text-shadow:0 0 10px #03bcf4,
+  0 0 20px #03bcf4,
+  0 0 40px #03bcf4,
+  0 0 80px #03bcf4,
+  0 0 160px #03bcf4;
+}
+
+#Education .card {
+  position:relative;
+  width:280px;
+  height:380px;
+  margin:0 auto;
+  margin-top:30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius:15px;
+  background:rgba(255,255,255,0.1);
+  overflow:hidden;
+  justify-content:center;
+  align-items:center;
+  border-top:1px solid rgba(255, 255, 255, 0.5);
+  border-left:1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter:blur(5px);
+  text-align:center;
+  padding: 20px;
+  transition:5s;
+  color:rgba(255, 255, 255, 0.5);
+  box-shadow:inset 300px 0 50px rgba(0,0,0,0.5), 0 20px 100px rgba(0,0,0,.5);
+
+
+
+}
+
+#Education .card h2 {
+  color:#fff;
+  font-size: 1.8em;
+  z-index:1;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Education .card p {
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #fff;
+}
+
+#Education .card p, h2{
+  padding:20px;
+  text-align:center;
+  transform:translateY(100px);
+  opacity:0;
+  transition:0.5s;
+}
+
+#Education .card:hover p, h2
+{
+  transform:translateY(0px);
+  opacity:1;
+}
+
+#Education{
+  display: flex;
+  position:relative;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+  height:100vh;
+  width:100%;
+}
+
+/* Styles for Skills */
+
+
+/* Styles for Projects */
+
+#Projects h1{
+  margin-top: 6rem;
+      position: relative;
+      font-size:6em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      width:100%;
+      -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+      line-height: 0.70em;
+      color:#c2dee9fa;
+      text-shadow:0 0 10px #03bcf4,
+      0 0 20px #03bcf4,
+      0 0 40px #03bcf4,
+      0 0 80px #03bcf4,
+      0 0 160px #03bcf4;
+}
+
+#Projects .card {
+      position:relative;
+      width:280px;
+      height:380px;
+      margin:0 auto;
+      margin-top:30px;
+      box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+      border-radius:15px;
+      background:rgba(255, 255, 255, 0.025);
+      overflow:hidden;
+      justify-content:center;
+      align-items:center;
+      border-top:1px solid rgba(255, 255, 255, 0.5);
+      border-left:1px solid rgba(255, 255, 255, 0.5);
+      backdrop-filter:blur(5px);
+      text-align:center;
+      padding: 20px;
+      color:rgb(255, 255, 255);
+      transition:1s ease-in-out;
+  }
+
+  #Projects{
+      display: flex;
+      position:relative;
+      font-family: sans-serif;
+      flex-wrap: wrap;
+    }
+
+#Projects .Image{
+      margin:0 auto;
+      position:relative;
+      width:220px;
+      height:220px;
+  }
+
+#Projects .Image img{
+      max-width:100%;
+      border-radius: 4px;
+  }
+#Projects .content{
+  line-height: 22px;
+  font-size: medium;
+  }
+
+
+/* Styles for Contact */
+
+.Connect h1{
+  margin-top: 6rem;
+      position: relative;
+      font-size:6em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      width:100%;
+      -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+      line-height: 0.70em;
+      color:#c2dee9fa;
+      text-shadow:0 0 10px #03bcf4,
+      0 0 20px #03bcf4,
+      0 0 40px #03bcf4,
+      0 0 80px #03bcf4,
+      0 0 160px #03bcf4;
+}
+
+#Contact img{
+  width:60px;
+  height:60px;
+  padding:20px;
+}
+
+#Contact {
+  display:inline-block;
+  width:100%;
+  text-align:center;
+  padding-top:100px;
+
+}
+
