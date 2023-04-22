@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<style>
+
+body{
+        display: block;
+        background-color: #041f27;
+        justify-items: center;
+    }
+
+#navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    color:whitesmoke;
+}
+
+#navbar a:hover{
+    color:#fff;
+    font-size:5 rem;
+    font-weight:600;
+    text-shadow:0 0 20px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+}
+
+.card {
+        position:relative;
+        width:280px;
+        height:380px;
+        margin:0 auto;
+        margin-top:90px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius:15px;
+        background:rgba(255, 255, 255, 0.025);
+        overflow:hidden;
+        justify-content:center;
+        align-items:center;
+        border-top:1px solid rgba(255, 255, 255, 0.5);
+        border-left:1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter:blur(5px);
+        text-align:center;
+        padding: 20px;
+        color:rgb(255, 255, 255);
+        transition:1s ease-in-out;
+    }
+
+img{
+    margin-top: 25%;
+    width:40%;
+    border-radius: 50%;
+}
+#links{
+    margin-top:10%;
+    border-radius:15px;
+    background:rgba(255, 255, 255, 0.025);
+    justify-content:center;
+    align-items:center;
+    border-top:1px solid rgba(255, 255, 255, 0.5);
+    border-left:1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter:blur(5px);  
+    padding: 20px;
+    color:rgb(255, 255, 255);  
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+</style>
+
+<body id="contacts">
+    <div id="navbar">
+    <ul>
+        <li><a href="index.html#container">Home</a></li>
+        <li><a href="Education.html">Education</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <!-- <li><a href="index.html#Contact">Contact</a></li> -->
+    </ul>
+</div>
+<div class="card">
+    <img src="bunny.jpeg">
+    <div>
+        <button id="links"><a href="http://www.linkedin.com/in/rajdeep-kaur-831047218">LinkedIn</a></button>
+        <button id="links"><a href="https://github.com/kaur-rajdeep">Github</a></button>
+        <button id="links"><a href="https://twitter.com/r_noob_">Twitter</a></button>
+    </div>
+    <h2>Let's Connect !</h2>
+</div>
+</body>
+</html>
